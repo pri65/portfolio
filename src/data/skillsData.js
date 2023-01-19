@@ -3,18 +3,17 @@ export const skillsData = [
     "CSS",
     "Javascript",
     "React",
-    // "Redux",
+    "Redux",
     "Typescript",
-    // "Node JS",
-    // "Express",
+    "nodejs",
+    "express",
     "MongoDB",
-    "Firebase",
     "Tailwind",
     "Bootstrap",
     "figma",
     "canva",
-    "Microsoft Office",
-      "Picsart",
+    "ViteJS",
+    "Bootstrap",
   
   ];
   

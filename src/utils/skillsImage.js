@@ -1,5 +1,5 @@
 import gcp from "../assets/svg/skills/gcp.svg";
-import Redux from "../assets/png/Redux.png"
+import redux from "../assets/png/redux.png"
 import html from "../assets/svg/skills/html.svg";
 import photoshop from "../assets/svg/skills/photoshop.svg";
 import illustrator from "../assets/svg/skills/illustrator.svg";
@@ -75,12 +75,18 @@ import unity from "../assets/svg/skills/unity.svg";
 import wolframalpha from "../assets/svg/skills/wolframalpha.svg";
 
 import canva from "../assets/svg/skills/canva.svg";
+import nodejs from "../assets/svg/skills/nodejs.svg";
+import express from "../assets/svg/skills/express.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
-    case "Redux":
-      return Redux;
+    case "redux":
+      return redux;
+      case "nodejs":
+        return nodejs;
+        case "express":
+          return express;
     case "gcp":
       return gcp;
     case "html":

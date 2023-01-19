@@ -1,117 +1,54 @@
-import one from "../assets/png/Projects/zee5.png";
-import two from "../assets/png/Projects/dineout.png";
-import Masai20 from "../assets/png/Projects/masai2o.png";
-import GoMasai from "../assets/png/Projects/GoMasai.png";
-import cricinfo from "../assets/png/Projects/cricinfo.png";
-// import three from "../assets/svg/projects/three.svg";
+import one from "../assets/png/Projects/restro.png";
+import two from "../assets/png/Projects/gpt3.png";
+import three from "../assets/png/Projects/nike.png";
+
 
 export const projectsData = [
   {
     id: 1,
-    projectName: "Zee5 Clone",
-    projectHade: "Zee5 Online OTT platform",
+    projectName: "restaurant_app",
+    // projectHade: "gricht-restro-app",
     projectDesc: [
-      "Sign Up | Login | All  Page - with Filter & Sort Functionality",
-      "Search Functionality for Movies and TV Shows",
-      "User Profile (dynamic) User Can update well profile",
-      "Single Video Page (dynamic) along with Add To Watch List Feature",
-      "Buy Plan | Payment Page along with all Functionality",
+      "Hello! Gericht Restaurant App is a single page website which resemble the landing page of a resturant. Built using the react.js and CSS3. The webpage is fully responsive and delivers better UI."
     ],
-    tags: ["HTML", "CSS", "JavaScript"],
-    code: "https://github.com/Akash2377/Zee5",
-    demo: "https://zee5clone22.netlify.app",
+    tags: ["HTML", "CSS", "JavaScript","React"],
+    code: "https://github.com/pri65/restraurant_app",
+    demo: "https://gericht-restro-app.netlify.app/",
     image: one,
   },
 
-  // {
-  //   id: 2,
-  //   projectName: "Masai2.0",
-  //   projectHade: "Online Learning Platform",
-  //   projectDesc: [
-  //     "Sign Up | Login | for three users Student | Admin | Super Admin",
-  //     "Profile Page (Dynamic) for every user",
-  //     "Super Admin and Admin can add course and lectures",
-  //     "Add to favorites and add to cart options for student",
-  //     "Student can buy the course and then able to watch all the course lectures",
-  //   ],
-  //   tags: ["HTML", "CSS", "JavaScript"],
-  //   code: "https://github.com/Akash2377/Masai_2.0",
-  //   demo: "https://masai2-0learningapp.netlify.app/",
-  //   image: Masai20,
-  // },
-  // {
-  //   id: 3,
-  //   projectName: "GoMasai Search Engine",
-  //   projectHade: "Search Engine for Masai",
-  //   projectDesc: [
-  //     "Search Functionality",
-  //     "User will get all results according to the search",
-  //     "All Results Page | News Page | Images Page | Maps | Video Page ",
-  //     "User can use mic for text typing automatically",
-  //     "Language translator is available for all the users",
-  //   ],
-  //   tags: ["HTML", "CSS", "JavaScript"],
-  //   code: "https://github.com/Akash2377/gomasai",
-  //   demo: "https://gomasai.netlify.app/",
-  //   image: GoMasai,
-  // },
-  // {
-  //   id: 4,
-  //   projectName: "Dineout Clone",
-  //   projectHade: "Online Restaurants reservation",
-  //   projectDesc: [
-  //     "Sign Up | Login | User Profile",
-  //     "All  Page - with Filter & Sort Functionality",
-  //     "Single Product Page (dynamic) along with Reservation Feature",
-  //     "Reservation Confirmation Page",
-  //     "Reservation Cancellation Page",
-  //   ],
-  //   tags: ["HTML", "CSS", "JavaScript"],
-  //   code: "https://github.com/Akash2377/cloneItDineout",
-  //   demo: "https://dineoutclone22.netlify.app/",
-  //   image: two,
-  // },
-  // {
-  //   id: 5,
-  //   projectName: "ESPNcricinfo",
-  //   projectHade: "Get Live Cricket Score",
-  //   projectDesc: [
-  //     "Home Page with theme change functionality",
-  //     "Latest cricket news page",
-  //     "Live Score Page ",
-  //     "Sign Up | Login for cricket fantasy section",
-  //     "Play Fantasy Cricket and win real cash",
-  //     "Player search functionality",
-  //     "Players Profile Page",
-  //   ],
-  //   tags: ["HTML", "CSS", "React", "materialui"],
-  //   code: "https://github.com/Akash2377/ESPNcricinfo_Clone",
-  //   demo: "https://espncricinfoclone.netlify.app/",
-  //   image: cricinfo,
-  // },
-  // {
-  //   id: 5,
-  //   projectName: "Weather App",
-  //   projectDesc:
-  //     "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
-  //   tags: ["Django", "CSS", "Material Ui"],
-  //   code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //   demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //   image: three,
-  // },
+  {
+    id: 2,
+    projectName: "GPT-3",
+    // projectHade: "gricht-restro-app",
+    projectDesc: [
+      "GPT-3 is a neural network machine learning model trained using internet data to generate any type of text.It is fully responsive website with modern UI/Ux designs in Reactjs. We have created the landing page of this website."
+    ],
+    tags: ["HTML", "CSS", "JavaScript","React"],
+    code: "https://github.com/pri65/gpt-3",
+    demo: "https://gpt3-gpt.netlify.app/",
+    image: two,
+  },
+
+  {
+    id: 3,
+    projectName: "Nike Store",
+    // projectHade: "nike-store-commerce",
+    projectDesc: [
+      "It is a modern e-commerce website. In this project you can also read stories and explore products. And also you can add to cart products, it is fully functional."
+    ],
+    tags: ["React","Tailwind","ViteJS"],
+    code: "https://github.com/pri65/nike_store_commerce",
+    demo: "https://nike-store-ecommerce-eight.vercel.app/",
+    image: three,
+  },
+
 ];
 
-// Do not remove any fields.
-// Leave it blank instead as shown below
 
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
+// "Sign Up | Login | All  Page - with Filter & Sort Functionality",
+//       "Search Functionality for Movies and TV Shows",
+//       "User Profile (dynamic) User Can update well profile",
+//       "Single Video Page (dynamic) along with Add To Watch List Feature",
+//       "Buy Plan | Payment Page along with all Functionality",
+

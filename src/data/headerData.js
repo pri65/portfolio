@@ -1,10 +1,10 @@
 import resume from "../assets/pdf/resume.pdf";
 import ProfilePhoto from "../assets/png/ProfilePhoto.png";
 export const headerData = {
-  name: "Rajat Soni",
+  name: "Priyanka Soni",
   title: "Web Developer",
   desciption:
-  "I'm a certified web developer who enjoys building interactive interfaces with HTML, JavaScript and React. I'm open to Full-stack Developer remote opportunities with digital-product teams.",
+  "I'm a web developer with a passion for building web applications with astounding designs. Pair-programming and remote work devotee. Proficient in multiple languages, frameworks, and technologies and capable of taking on new skills quickly and efficiently. My daily routine consists of building projects, studying, reading articles and documentation, solving coding challenges, and networking. ;-) ",
   image: ProfilePhoto,
   resumePdf: resume,
 };
