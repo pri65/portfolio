@@ -1,6 +1,7 @@
 import one from "../assets/png/Projects/restro.png";
 import two from "../assets/png/Projects/gpt3.png";
 import three from "../assets/png/Projects/nike.png";
+import four from "../assets/png/Projects/imdb.png";
 
 
 export const projectsData = [
@@ -42,6 +43,19 @@ export const projectsData = [
     demo: "https://nike-store-ecommerce-eight.vercel.app/",
     image: three,
   },
+  {
+    id: 4,
+    projectName: "IMDB Clone",
+    // projectHade: "imdb clone",
+    projectDesc: [
+      "This project is a clone of IMDB website.It contains two pages, the home page, where all the content is categorised and the content page. This website is completely responsive."
+    ],
+    tags: ["HTML","CSS","JavaScript","React"],
+    code: "https://github.com/pri65/imdb-clone",
+    demo: "https://nike-store-ecommerce-eight.vercel.app/",
+    image: four,
+  },
+  
 
 ];
 

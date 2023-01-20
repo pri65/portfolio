@@ -81,11 +81,10 @@ function SingleProject({
                 fontFamily: "cursive",
               }}
             >
-              Feature
             </p>
             <ul className="project--desc">
               {desc.map((e) => (
-                <li>{e}</li>
+                <p>{e}</p>
               ))}
             </ul>
           </div>

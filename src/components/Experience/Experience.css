@@ -33,7 +33,7 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
+    height: 240px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -118,6 +118,7 @@
     }
     .experience-card {
         width: 100%;
+        
         padding: 1.5rem;
         margin-bottom: 1.5rem;
     }
@@ -135,7 +136,7 @@
     .experience-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        height: 150px;
     }
     .expcard-img {
         border-radius: 50%;
